@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+</head>
+<body>
+    <div>
+        <div>
+            <h2 style ="color:black;background-color: rgb(178, 34, 34);">Thông tin người dùng</h2>
+            <label for="CCCD">Bạn sinh năm bao nhiêu: </label>
+            <input id="CCCD" type="number"><br>
+            <label for="ngaysinh">Ngày sinh</label>
+            <input id="ngaysinh" type="date"><br>
+            <label for="gioitinh">Giới tính: </label>
+            <select id="gioitinh" name ="gioitinh">
+                <option value ="nam"> Nam</option>
+                <option value ="nu">Nữ</option>       
+            </select><br>  
+        </div>
+        <div>
+            <label for ="tiensubenh">Tình trạng học:</label>
+            <input id="benhthankinh" type="checkbox"> Học sinh cấp 1
+            <input id="benhmat" type="checkbox"> Học sinh cấp 2
+            <input id="benhthan" type="checkbox"> Học sinh cấp 3
+            <input id="benhphoi" type="checkbox"> Khác
+            
+        </div>
+        <form>
+            <h2 style ="color:white ;background-color: rgb(250,128,114);"><b>Một số câu hỏi cho bạn</b></h2>
+            <label for="cacloaiquanao">Ca sĩ bạn yêu thích</label>
+            <input id="cacloaiquanao" type="text"><br>
+            <label for="cacloaigiaydep">Lý do bạn yêu thích ca sĩ đó </label>
+            <input id="cacloaigiaydep" type="text"><br>     
+            <label for="cacloaigiaydep">Bạn có muốn trỡ thành ca sĩ không </label>
+            <input type="radio" id="nam" name="gioitinh" value="nam">Có
+        <input type="radio" id="nu" name="gioitinh" value="nu">Không quan tâm
+        <br>       
+            <label for="cacloaiphukien">Sở thích của bạn là gì</label>
+            <input id="cacloaiphukien" type="text"><br>        
+        </form>
+    </div>
+    <br>
+    <input id="guithongtin" value="Gửi thông tin"type="submit">
+    
+</body>
+</html>
